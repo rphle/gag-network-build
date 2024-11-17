@@ -1,7 +1,0 @@
-# Enable rewrite engine
-RewriteEngine On
-
-# Allow access to all files and directories
-<FilesMatch "^.*$">
-    Require all granted
-</FilesMatch>
